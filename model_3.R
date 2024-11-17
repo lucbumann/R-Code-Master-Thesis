@@ -60,11 +60,6 @@ print(boot_summary_model3$bootstrapped_paths)
 #Assess RSquares
 model_summary_model3$paths
 
-# Calculate and print f² effect sizes
-f2_values <- boot_summary_model3fSquare
-print("f² effect sizes:")
-print(f2_values)
-
 #Mediation Analysis: 
 model_summary_model3$total_indirect_effects
 
